@@ -1,0 +1,24 @@
+# ===== DATA VERY LARGE =====
+*.csv
+*.zip
+*.parquet
+*.pkl
+*.npy
+*.npz
+
+wide_parquet/
+data_*
+GSE*
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== Environments =====
+.venv/
+venv/
+env/
+
+# ===== Secrets =====
+.env
